@@ -1,0 +1,39 @@
+li {
+  height: 90%;
+  min-width: 350px;
+  max-width: 350px;
+  display: flex;
+  align-items: center;
+  gap: 8%;
+  flex-direction: column;
+  background-color: var(--color-backgroundContract);
+  border: solid 20px var(--color-backgroundContract);
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contractInfo {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contractInfo > span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.objContract {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.objContract > h4 {
+  font-size: 18px;
+  font-weight: bold;
+}

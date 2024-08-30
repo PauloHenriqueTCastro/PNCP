@@ -1,0 +1,41 @@
+header {
+  background-color: var(--color-header);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60%;
+}
+h1 {
+  color: var(--color-logoName);
+  font-size: 32px;
+}
+header > div {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header > div > button {
+  background-color: var(--color-btnSearchBar);
+  border: none;
+  height: 45px;
+  color: var(--color-btnTextSearchBar);
+}
+
+header > div > input {
+  background-color: var(--color-searchBar);
+  height: 43px;
+  width: 375px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+}
+
+header > div > input > textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}

@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "numeroControlePncpCompra": "00059311000126-1-000205/2023",
+      "codigoPaisFornecedor": "BRA",
+      "anoContrato": 2023,
+      "tipoContrato": {
+        "id": 7,
+        "nome": "Empenho"
+      },
+      "numeroContratoEmpenho": "2023NE000203",
+      "dataAssinatura": "2023-07-31",
+      "dataVigenciaInicio": "2023-07-31",
+      "dataVigenciaFim": "2023-12-31",
+      "niFornecedor": "40358740000119",
+      "tipoPessoa": "PJ",
+      "categoriaProcesso": {
+        "id": 8,
+        "nome": "Serviços"
+      },
+      "dataPublicacaoPncp": "2023-08-01T18:31:02",
+      "dataAtualizacao": "2023-08-01T18:31:02",
+      "orgaoSubRogado": null,
+      "orgaoEntidade": {
+        "cnpj": "00059311000126",
+        "razaoSocial": "FUNDACAO NACIONAL DO INDIO",
+        "poderId": "E",
+        "esferaId": "F"
+      },
+      "sequencialContrato": 495,
+      "unidadeOrgao": {
+        "ufNome": "Santa Catarina",
+        "codigoUnidade": "194047",
+        "nomeUnidade": "COORDENAÇÃO REGIONAL LITORAL SUL - SC",
+        "ufSigla": "SC",
+        "municipioNome": "São José",
+        "codigoIbge": "4216602"
+      },
+      "informacaoComplementar": "19404706000302023 - UASG Minuta: 194047",
+      "processo": "08620.007701/2023-89",
+      "unidadeSubRogada": null,
+      "nomeRazaoSocialFornecedor": "GAVA IMPRESSAO DIGITAL LTDA",
+      "niFornecedorSubContratado": null,
+      "nomeFornecedorSubContratado": null,
+      "receita": false,
+      "tipoPessoaSubContratada": null,
+      "objetoContrato": "SEGAT - COBRIR DESPESAS COM SERVIÇO DE IMPRESSÃO DE MAPAS EM PAPEL SULFITE NO TAMANHO A0 E A1, CONFORME DESPACHO SEAD/SEPLAN (5464943)",
+      "valorInicial": 1035.23,
+      "numeroParcelas": 1,
+      "valorParcela": 1035.23,
+      "valorGlobal": 1035.23,
+      "valorAcumulado": 1035.23,
+      "numeroRetificacao": 0,
+      "identificadorCipi": null,
+      "urlCipi": null,
+      "numeroControlePNCP": "00059311000126-2-000495/2023",
+      "usuarioNome": "Contratos.gov.br"
+    }
+  ],
+  "totalRegistros": 5,
+  "totalPaginas": 1,
+  "numeroPagina": 1,
+  "paginasRestantes": 0,
+  "empty": false
+}
