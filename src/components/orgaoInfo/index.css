@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80%;
+  gap: 5%;
+}
+.orgaoInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+.orgaoInfo > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.orgaoInfo > div > h2 {
+  font-size: 30px;
+}
+.orgaoInfo > div > p {
+  font-size: 16px;
+}
+.contratos {
+  width: 90%;
+  height: 65%;
+  border: solid 40px var(--color-backgroundContractList);
+  background-color: var(--color-backgroundContractList);
+  display: flex;
+  align-items: center;
+  /*Substituir esse gap pelo borderleft */
+  gap: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+::-webkit-scrollbar {
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 200px;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: var(--color-backgroundContractList);
+}
