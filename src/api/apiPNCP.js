@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const api = axios.create({
+export const apiPNCP = axios.create({
   baseURL: "https://pncp.gov.br/api/consulta",
-  timeout: 10000,
+  timeout: 60000,
 });

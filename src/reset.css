@@ -1,19 +1,21 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 :root {
   --color-background: #d9d9d9;
-  --color-header: #3c3c3c;
+  --color-header: #000000;
   --color-searchBar: #d9d9d9;
   --color-searchTextBar: #000000;
   --color-btnSearchBar: #6a6868;
+  --color-btnSearchBarHover: #ffffff;
   --color-btnTextSearchBar: #ffffff;
   --color-logoName: #ffffff;
   --color-backgroundContractList: #ffffff;
   --color-backgroundContract: #d9d9d9;
+  --color-backgroundContractHover: #000000;
+  --colo-fontColorContractHover: #ffffff;
 }
 
+html {
+  background-color: var(--color-background);
+}
 .App {
   background-color: var(--color-background);
   height: 100vh;

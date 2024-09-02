@@ -32,7 +32,6 @@ body {
   background-color: var(--color-backgroundContractList);
   display: flex;
   align-items: center;
-  /*Substituir esse gap pelo borderleft */
   gap: 20px;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -46,4 +45,26 @@ body {
 }
 ::-webkit-scrollbar-track-piece {
   background-color: var(--color-backgroundContractList);
+}
+@media (max-width: 1080px) {
+  body {
+    height: max-content;
+    gap: 20px;
+  }
+
+  .orgaoInfo {
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .orgaoInfo > div > h2 {
+    font-size: 24px;
+  }
+  .contratos {
+    border-top: 0px;
+    border-bottom: 0px;
+    width: 70%;
+    height: 550px;
+    margin-bottom: 30px;
+  }
 }

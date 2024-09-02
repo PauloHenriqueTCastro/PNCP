@@ -10,7 +10,7 @@ export function Contrato({ contratoInfo }) {
         <span>Data de vigência final:</span>
         <p>{contratoInfo.dataVigenciaFim}</p>
         <span>Valor inicial do contrato</span>
-        <p>{contratoInfo.valorGlobal}</p>
+        <p>R$: {contratoInfo.valorGlobal}</p>
       </div>
       <div className="objContract">
         <h4>Objeto de contrato:</h4>

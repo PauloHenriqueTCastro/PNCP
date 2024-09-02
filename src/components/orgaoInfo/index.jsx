@@ -8,19 +8,20 @@ export function OrgaoInfo({ contratoInfo }) {
       totalValueContracts += element.valorGlobal;
     });
   }
+
   return (
     <body>
       {contratoInfo == undefined ? (
         <>
           <div className="orgaoInfo">
             <div>
-              <h2>Nome do orgão</h2>
+              <h2>Org:</h2>
               <span>Poder: </span>
               <span>Esfera:</span>
             </div>
             <div>
-              <h2>Valor total dos contratos recebidos</h2>
-              <span>R$ {totalValueContracts}</span>
+              <h2>Valor total dos contratos recebidos:</h2>
+              <span>R$ 0.00</span>
             </div>
           </div>
           <ul className="contratos"></ul>
@@ -29,13 +30,13 @@ export function OrgaoInfo({ contratoInfo }) {
         <>
           <div className="orgaoInfo">
             <div>
-              <h2>{contratoInfo.data[0].orgaoEntidade.razaoSocial}</h2>
+              <h2>Org: {contratoInfo.data[0].orgaoEntidade.razaoSocial}</h2>
               <span>Poder: {contratoInfo.data[0].orgaoEntidade.poderId}</span>
               <span>Esfera:{contratoInfo.data[0].orgaoEntidade.esferaId}</span>
             </div>
             <div>
               <h2>Valor total dos contratos recebidos</h2>
-              <span>R$ {totalValueContracts}</span>
+              <span>R$ {totalValueContracts.toFixed(2)}</span>
             </div>
           </div>
           <ul className="contratos">

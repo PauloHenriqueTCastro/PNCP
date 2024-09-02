@@ -9,6 +9,28 @@ li {
   background-color: var(--color-backgroundContract);
   border: solid 20px var(--color-backgroundContract);
 }
+
+li:hover {
+  background-color: var(--color-backgroundContractHover);
+  border: solid 20px var(--color-backgroundContractHover);
+  transition: 0.3s;
+  h3 {
+    color: var(--colo-fontColorContractHover);
+  }
+  .contractInfo > p {
+    color: var(--colo-fontColorContractHover);
+  }
+  .contractInfo > span {
+    color: var(--colo-fontColorContractHover);
+  }
+  .objContract > h4 {
+    color: var(--colo-fontColorContractHover);
+  }
+  .objContract > p {
+    color: var(--colo-fontColorContractHover);
+  }
+}
+
 h3 {
   font-size: 20px;
   font-weight: bold;
@@ -22,10 +44,15 @@ h3 {
   gap: 10px;
 }
 
+.contractInfo > p {
+  width: 90%;
+}
+
 .contractInfo > span {
   font-size: 18px;
   font-weight: bold;
 }
+
 .objContract {
   width: 95%;
   display: flex;
@@ -36,4 +63,8 @@ h3 {
 .objContract > h4 {
   font-size: 18px;
   font-weight: bold;
+}
+.objContract > p {
+  word-break: break-all;
+  font-size: 12px;
 }
