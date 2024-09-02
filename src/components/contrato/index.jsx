@@ -1,6 +1,7 @@
 import "./index.css";
 
 export function Contrato({ contratoInfo }) {
+  //código responsavel pelo retorno dos contratos.
   return (
     <li>
       <h3>{contratoInfo.nomeRazaoSocialFornecedor}</h3>

@@ -2,13 +2,15 @@ import { Contrato } from "../contrato";
 import "./index.css";
 
 export function OrgaoInfo({ contratoInfo }) {
+  //código responsavel por verificar se o props contratoInfo existe e por calcular o valor total dos contratos.
   let totalValueContracts = 0;
   if (contratoInfo != undefined) {
     contratoInfo.data.forEach((element) => {
       totalValueContracts += element.valorGlobal;
     });
   }
-
+  //retorno do componente OrgaoInfo.
+  //Possui uma renderizaçãocondicional que verifica se o contratoInfo existe e uma renderizaçãoque gera os contratos.
   return (
     <body>
       {contratoInfo == undefined ? (

@@ -11,6 +11,8 @@ export function Header({
   finalDate,
   setFinalDate,
 }) {
+  //retorno do componente header.
+  //Possui um componente chamado DatePicker. Ele é responsavel por criar um mini calendario que pode ser utilizado para adicionar data no campo selecionado.
   return (
     <header>
       <h1>PNCP Consulta</h1>
