@@ -1,8 +1,18 @@
-# React + Vite
+# PNCP-Back-End
+Aplicação responsável pelo front-end de um projeto que estou desenvolvendo, onde utilizo a API do Portal Nacional de Contratações Públicas para obter informações sobre contratos de um determinado órgão público.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### Bibliotecas externas untilizadas:
+- React + Vite
+- Axios
+- React-Datepicker
+- React-Dom
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funções:
+
+- Possui um layout mobile.
+- Verificação de contratos de acordo com um CNPJ informado, período inicial da pesquisa e período final.
+- Armazenar em um banco de dados.
+
+## Como utilizar:
+Para utilizar de forma correta, informe uma data válida e um CNPJ válido. Será retornado na tela as informações que foram consultadas sobre aquele órgão, bem como os contratos e o valor total dos contratos. Lembre-se de conectar corretamente sua API dentro do arquivo api/apiPT.js.
