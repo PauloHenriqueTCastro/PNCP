@@ -24,7 +24,12 @@ export function OrgaoInfo({ contratoInfo }) {
               <span>R$ 0.00</span>
             </div>
           </div>
-          <ul className="contratos"></ul>
+          <ul className="contratos">
+            <p>
+              Sem informações. Pesquise um CNPJ valido ou verifique se a data
+              está correta.
+            </p>
+          </ul>
         </>
       ) : (
         <>
@@ -35,7 +40,7 @@ export function OrgaoInfo({ contratoInfo }) {
               <span>Esfera:{contratoInfo.data[0].orgaoEntidade.esferaId}</span>
             </div>
             <div>
-              <h2>Valor total dos contratos recebidos</h2>
+              <h2>Valor total dos contratos recebidos:</h2>
               <span>R$ {totalValueContracts.toFixed(2)}</span>
             </div>
           </div>

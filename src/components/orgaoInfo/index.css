@@ -36,6 +36,13 @@ body {
   overflow-x: scroll;
   overflow-y: hidden;
 }
+.contratos > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 30px;
+}
 ::-webkit-scrollbar {
   height: 10px;
 }
